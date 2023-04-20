@@ -20,6 +20,8 @@ const spells = [
       description: 'Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.',
     },
   ];
+
+  const spellsJSON = JSON.stringify(spells);
   
   const spellList = document.querySelector('.spell-list ul');
   
